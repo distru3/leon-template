@@ -131,7 +131,8 @@ header .container{
 /* features start */
 
 .features{
-    padding: var(--universal-padding);
+    margin-top: var(--universal-padding);
+    margin-bottom: var(--universal-padding);
     background-color: var(--section-color);
 }
 
@@ -141,7 +142,7 @@ header .container{
     grid-gap: 20px;
 }
 
-.features .container .feat{text-align: center;}
+.features .container .feat{padding: 30px; text-align: center;}
 
 .features .container .feat i{font-size: 40px; color: var(--main-color);}
 
@@ -208,7 +209,11 @@ header .container{
 /* services end */
 /* portfolio start */
 
-.portfolio{background-color: var(--section-color); padding: var(--universal-padding);}
+.portfolio{
+    background-color: var(--section-color);
+    padding-top: var(--universal-padding);
+    padding-bottom: var(--universal-padding);
+}
 
 .portfolio .content{
     display: grid;
@@ -329,6 +334,7 @@ header .container{
 }
 
 .contact .info a{
+    font-size: 30px;
     text-decoration: none;
     font-weight: bolder;
     color: var(--main-color);
